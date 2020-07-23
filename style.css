@@ -1,64 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+body {
+    color: white;
+    background-color: black;
+    font-size: 20px;
 }
 
+h1{
+    color: red;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2{
+    color: green;
+    font-size: 1.2em;
+    text-align: center;
+
+}
 
 section{
     height: 100vh;
-    background-color: black;
-    font-family: cursive;
-}
-
-.intro{
-    color: red;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.intro h1{
-    font-size: 100px;
-}
-
-.intro p{
-    text-align: center;
-    padding: 10px;
-    font-size: 25px;
 }
 
 
-.options{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    align-items: center;
-    justify-content: space-around;
-
-
-}
-
-.options h2{
-    color: red;
-    padding: 10px;
-    font-size: 30px;
-
-
-}
 
 .options button{
     width: 150px;
     height: 50px;
     background: none;
     border: none;
-    color: black;
-    font-size: 20px;
-    background: red ;
+    color: white;
+    background-color: indigo;
     cursor: pointer;
+    
 }
+
